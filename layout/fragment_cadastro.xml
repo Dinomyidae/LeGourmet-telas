@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B10404"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="Cadastre seu e-mail"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColor="#A30000"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="184dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B10404"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="Escolha um username"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="266dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="143dp"
+            android:layout_height="58dp"
+            android:backgroundTint="#B10404"
+            android:fontFamily="casual"
+            android:text="Juntar-se"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="134dp"
+            tools:layout_editor_absoluteY="462dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B10404"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="Escolha uma senha"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="353dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vegetables_4"
+            tools:layout_editor_absoluteX="-15dp"
+            tools:layout_editor_absoluteY="554dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/two_red_tomatoes"
+            tools:layout_editor_absoluteX="319dp"
+            tools:layout_editor_absoluteY="660dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/salad_5"
+            tools:layout_editor_absoluteX="-51dp"
+            tools:layout_editor_absoluteY="594dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Venha fazer parta da nossa comunidade!"
+            android:textAlignment="center"
+            android:textColor="#B10404"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="203dp"
+            android:layout_height="217dp"
+            android:src="@drawable/salad_3"
+            tools:layout_editor_absoluteX="312dp"
+            tools:layout_editor_absoluteY="-79dp" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/two_red_tomatoes_3"
+            tools:layout_editor_absoluteX="-30dp"
+            tools:layout_editor_absoluteY="-35dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
